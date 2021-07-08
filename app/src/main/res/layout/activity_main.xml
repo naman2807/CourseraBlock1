@@ -26,6 +26,8 @@
 app:layout_constraintLeft_toLeftOf="parent"
     app:layout_constraintRight_toRightOf="parent"
     android:text="@string/the_pink_panther_s_todo_list"
+      android:layout_marginTop="10dp"
     android:width="300dp"
+    android:background="#EC88E1"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
