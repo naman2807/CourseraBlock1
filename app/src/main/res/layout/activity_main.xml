@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,23 +12,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:width="300dp"
-        android:background="#AED2FF"
+        android:width="350dp"
+        android:backgroundTint="@color/btn1"
         android:text="@string/the_invisible_man_s_to_do_list"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="toDo"/>
 
-  <Button
-    android:id="@+id/button_pinkPanther"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-    app:layout_constraintTop_toBottomOf="@+id/button_blueInvisible"
-app:layout_constraintLeft_toLeftOf="parent"
-    app:layout_constraintRight_toRightOf="parent"
-    android:text="@string/the_pink_panther_s_todo_list"
-      android:layout_marginTop="10dp"
-    android:width="300dp"
-    android:background="#EC88E1"/>
+    <Button
+        android:id="@+id/button_pinkPanther"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:width="350dp"
+        android:backgroundTint="@color/btn2"
+        android:text="@string/the_pink_panther_s_todo_list"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_blueInvisible" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
