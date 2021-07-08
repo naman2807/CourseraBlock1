@@ -1,13 +1,15 @@
 package com.example.courserablock1;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     Button blueButton;
     Button pinkButton;
 
@@ -27,5 +29,10 @@ public class MainActivity extends AppCompatActivity {
         }else if(v.equals(pinkButton)){
             Toast.makeText(getApplicationContext(),"to do to do to do", Toast.LENGTH_SHORT).show();
         }
+    }
+
+    @Override
+    public void onClick(View v) {
+
     }
 }
