@@ -24,5 +24,6 @@
       android:layout_height="wrap_content"
     app:layout_constraintTop_toBottomOf="@+id/button_blueInvisible"
 app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
 
 </androidx.constraintlayout.widget.ConstraintLayout>
