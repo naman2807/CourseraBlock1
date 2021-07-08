@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void toDo(View v){
+        if(v.equals(blueButton)){
 
+        }
     }
 }
