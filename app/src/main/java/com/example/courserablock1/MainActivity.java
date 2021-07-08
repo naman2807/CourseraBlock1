@@ -8,6 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     Button blueButton;
+    Button pinkButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
