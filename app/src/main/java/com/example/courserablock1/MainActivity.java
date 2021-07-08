@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         blueButton = findViewById(R.id.button_blueInvisible);
         blueButton.setOnClickListener(this);
         pinkButton = findViewById(R.id.button_pinkPanther);
+        pinkButton.setOnClickListener(this);
     }
 
     public void toDo(View v){
