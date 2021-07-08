@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         blueButton = findViewById(R.id.button_blueInvisible);
+        blueButton.setOnClickListener(this);
         pinkButton = findViewById(R.id.button_pinkPanther);
     }
 
