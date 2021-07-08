@@ -22,5 +22,7 @@
     android:id="@+id/button_pinkPanther"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
+    app:layout_constraintTop_toBottomOf="@+id/button_blueInvisible"
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
