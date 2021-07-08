@@ -6,16 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/button_blueInvisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:width="300dp"
+        android:background="#AED2FF"
+        android:text="@string/the_invisible_man_s_to_do_list"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
   <Button
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-    app:layout_constraintTop_toTopOf="parent"
-      android:layout_marginTop="10dp"
-      android:id="@+id/button_blueInvisible"
-      android:text="@string/the_invisible_man_s_to_do_list"
-    app:layout_constraintLeft_toLeftOf="parent"
-    app:layout_constraintRight_toRightOf="parent"
-    android:width="300dp"
-    android:background="#AED2FF"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
